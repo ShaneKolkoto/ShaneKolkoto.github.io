@@ -20,8 +20,9 @@ function validate() {
        return false;
     }
     else{
-        alert( "Email was sent")
+      alert( "Email was sent")
+      window.location.reload()
       //   Clear the form
-        return( true )
-    };
- }
+        return( true ) // JSON data parsed by `data.json()` call
+   };   
+}
